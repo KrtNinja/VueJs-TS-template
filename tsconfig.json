@@ -1,0 +1,53 @@
+{
+  "compileOnSave": false,
+
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    "lib": [
+      "es6",
+      "es2016.array.include",
+      "es2017.object",
+      "es2019.array",
+      "dom",
+      "dom.iterable",
+      "scripthost",
+      "webworker"
+    ],
+
+    "sourceMap": true,
+    "noEmit": false,
+    "allowJs": false,
+    "checkJs": false,
+
+    "allowUnusedLabels": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+
+    "strict": false,
+    "alwaysStrict": false,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictFunctionTypes": false,
+    "strictPropertyInitialization": false,
+    "strictNullChecks": false,
+
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "resolveJsonModule": true
+  }
+
+
+  //  "files.exclude": [
+  //    "./node_modules/"
+  //  ]
+}
