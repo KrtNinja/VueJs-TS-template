@@ -9,7 +9,7 @@ import Vuetify from './plugins/vuetify';
 
 const Root = Vue.extend({
     render: (h) => h(Main),
-    vuetify: Vuetify,
+    vuetify: Vuetify
 });
 
 new Root().$mount('#app');
