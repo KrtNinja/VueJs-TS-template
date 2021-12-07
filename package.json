@@ -1,5 +1,5 @@
 {
-  "name": "Synthister",
+  "name": "VueJs-TS-template",
   "version": "0.0.1",
   "description": "'npm install' to install dependencies; 'npm run build-[module]-[config]' to build app.js for module [module] and [config] configuration (dev or prod)",
   "main": "index.js",
@@ -13,13 +13,15 @@
     "eslint": "eslint --cache --ext .ts,.vue ./src"
   },
   "dependencies": {
-    "vue": "^2.6.10",
-    "vuetify": "^2.2.30",
-    "material-design-icons-iconfont": "^5.0.1",
+    "@mapbox/stylelint-processor-arbitrary-tags": "^0.4.0",
     "@mdi/font": "^5.0.45",
+    "@openfonts/roboto-slab_all": "^1.44.0",
     "codemirror": "5.52.2",
     "dedent-js": "^1.0.1",
-    "@openfonts/roboto-slab_all": "^1.44.0"
+    "material-design-icons-iconfont": "^5.0.1",
+    "stylelint-scss": "^4.0.0",
+    "vue": "^2.6.10",
+    "vuetify": "^2.2.30"
   },
   "devDependencies": {
     "@types/codemirror": "0.0.88",
@@ -54,7 +56,7 @@
     "sass": "^1.26.5",
     "sass-loader": "^7.3.1",
     "style-loader": "^1.2.1",
-    "stylelint": "^13.3.2",
+    "stylelint": "^13.13.1",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-processor-html": "^1.0.0",
     "ts-loader": "6.2.1",
