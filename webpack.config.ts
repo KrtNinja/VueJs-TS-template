@@ -19,7 +19,7 @@ export default {
         filename: '[name].js'
     },
     devServer: {
-        contentBase:  path.join(__dirname, './dist'),
+        contentBase: path.join(__dirname, './src/assets'),
         hot: true,
         port: 9000
     },
@@ -54,7 +54,7 @@ export default {
                     {
                         loader: 'ts-loader',
                         options: {
-                            appendTsSuffixTo: [/\.vue$/],
+                            appendTsSuffixTo: [/\.vue$/]
                         }
                     }
                 ],
