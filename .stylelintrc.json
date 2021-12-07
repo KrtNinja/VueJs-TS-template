@@ -1,0 +1,23 @@
+{
+  "processors": [
+    [
+      "@mapbox/stylelint-processor-arbitrary-tags",
+      {
+        "fileFilterRegex": ["\\.(html?|vue)$"]
+      }
+    ]
+  ],
+  "extends": "stylelint-config-standard",
+  "syntax": "scss",
+  "plugins": [
+    "stylelint-scss"
+  ],
+  "rules": {
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": "always",
+    "declaration-empty-line-before": "never",
+    "indentation": 4,
+    "no-empty-source": null,
+    "no-missing-end-of-source-newline": null
+  }
+}
